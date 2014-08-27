@@ -97,61 +97,23 @@ bool a_case()
 	return true;
 }
 
-
-bool str2int(string str, int &num)
-{
-	int i=0;
-	char chr = str[i];
-	num = 0;
-	while(chr>='0'&&chr<='9')
-	{
-		num = num*10+(chr-'0');
-		chr = str[++i];
-	}
-	if(str.length()!=i+1)
-	{
-		return false;
-	}
-	else
-	{
-		return true;
-	}
-}
-
-
-bool normalize(int data[TEST_SCALE], int& length)
+bool normalize(string data[TEST_SCALE], int& length)
 {
 	// process test dataset, get normalized dataset
-	ifstream input("data/number_memory_data.txt");
+	ifstream input("data/text_memory_data.txt"); // this file can be anything in it, you decide it yourself!
 	
 	//read from file and match format and store the data
-	string line;
-	input>>line;
+	string word;
+	input>>word;
 	
 	// "\0" is meant to be the end
 	while(line.length()>1&&length<TEST_SCALE)
 	{
-		//data format
-		string type, id, count;
-		stringstream ss(line);
-		std::getline(ss, type, ',');
-		std::getline(ss, id, ',');
-		std::getline(ss, count, ',');
-		//cout<<type<<" "<<id<<" "<<count<<endl;
-		if(type=="C")
-		{
-			data[length] = -1;
-		}
-		else
-		{
-			int num = 0;
-			str2int(id, num);
-			data[length] = num;
-		}
+		data[length] = word;
 		
 		length = length +1;
-		line = "";
-		input>>line;
+		word = "";
+		input>>word;
 	}
 	
 	if(length==TEST_SCALE)
