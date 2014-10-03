@@ -5,7 +5,7 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	std::cout << "chaboy is a project that trying to give a feeling that robots can talk just like human. R u ready, let\'s go!"<<std::endl;
+	std::cout << "chatboy is a project that trying to give a feeling that robots can talk just like human. R u ready, let\'s go!"<<std::endl;
 	// install 
 
 
