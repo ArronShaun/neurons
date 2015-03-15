@@ -1,1 +1,7 @@
-g++ -c debugger.o debugger.cpp
+g++ -c debugger.cpp
+g++ -c node.cpp
+g++ -c node_list.cpp
+g++ -c memory_neuron.cpp
+g++ -c memory_network.cpp
+g++ -c number_memory.cpp
+g++ -o number_memory_test.o number_memory_test.cpp
