@@ -1,2 +1,1 @@
-g++ -o debugger.o debugger.cpp
-
+g++ -c debugger.o debugger.cpp
