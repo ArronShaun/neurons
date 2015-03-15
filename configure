@@ -1,1 +1,1 @@
-sudo gcc -o TEST_number_memory_test.cpp
+gcc -o TEST_number_memory_test.cpp
