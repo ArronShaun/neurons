@@ -2,7 +2,7 @@
 
 // consists of memory_neurons
 #include "memory_neuron.cpp"
-#include "debug/debugger.h"
+#include "debugger.h"
 
 #ifndef N
 	#define N 1000
