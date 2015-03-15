@@ -5,7 +5,7 @@
 **/
 #include "iostream"
 #include "memory_network.cpp"
-#include "debug/debugger.h"
+#include "debugger.h"
 
 class NumberMemory
 {
