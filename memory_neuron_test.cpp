@@ -3,7 +3,7 @@
 // test the class MemoryNeuron
 
 #include "iostream"
-#include "../memory_neuron.cpp"
+#include "memory_neuron.cpp"
 
 int t_main(int argc, const char** argv)
 {
