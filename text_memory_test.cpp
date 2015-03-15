@@ -4,12 +4,12 @@
 **** 
 **/
 
-#include "../debug/debugger.h"
+#include "debugger.h"
 #include "iostream"
 #include "fstream"
 #include "string"
 #include "sstream"
-#include "../text_memory.cpp"
+#include "text_memory.cpp"
 
 #ifndef TEST_SCALE
 	#define TEST_SCALE 2000
@@ -69,7 +69,7 @@ int main(int argc, const char** argv)
 bool split(string& *str_arr, int& n, const& string str)
 {
 	// up limit
-	z
+	// not over
 }
 
 bool a_case()
