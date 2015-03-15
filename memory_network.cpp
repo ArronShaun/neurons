@@ -133,8 +133,6 @@ class MemoryNetwork
 				tick --;
 				trace("Next exist:");
 				Node<long>* nn = neighbor->yield();
-				trace("its address:");
-				trace(int(nn));
 				long cid = nn->data;
 				trace("its value:");
 				trace(cid);
