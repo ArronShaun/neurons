@@ -1,1 +1,1 @@
-gcc -o number_test.o number_memory_test.cpp
+g++ -o number_test.o number_memory_test.cpp
