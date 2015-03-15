@@ -1,1 +1,1 @@
-gcc -o text_memory_network.cpp
+gcc -o TEST_number_memory_test.cpp
