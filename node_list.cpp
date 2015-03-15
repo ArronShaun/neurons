@@ -1,5 +1,5 @@
 // node_list.cpp
-#include "debug/debugger.h"
+#include "debugger.h"
 #include "iostream"
 #include "node.cpp"
 
