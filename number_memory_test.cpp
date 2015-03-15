@@ -4,12 +4,12 @@
 **** 
 **/
 
-#include "../debug/debugger.h"
+#include "debugger.h"
 #include "iostream"
 #include "fstream"
 #include "string"
 #include "sstream"
-#include "../number_memory.cpp"
+#include "number_memory.cpp"
 
 #ifndef TEST_SCALE
 	#define TEST_SCALE 2000
